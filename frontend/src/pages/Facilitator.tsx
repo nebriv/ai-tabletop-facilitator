@@ -2654,8 +2654,8 @@ export function SetupView({
             No setup messages yet. The AI usually responds in 5–20 seconds.
             If nothing appears soon, check the backend container logs — the
             most common causes are a missing{" "}
-            <code className="mx-1 rounded-r-1 bg-ink-900 px-1 text-signal">ANTHROPIC_API_KEY</code>{" "}
-            or a network issue reaching the Anthropic API.
+            <code className="mx-1 rounded-r-1 bg-ink-900 px-1 text-signal">LLM_API_KEY</code>{" "}
+            or a network issue reaching the LLM provider.
           </p>
         </div>
       ) : null}
